@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const email = document.getElementById("email").value;
     if (email == "michele@gmail.com" && password == "Ciaociao01!") {
       document.getElementById("loginMessage").innerHTML = "<span class='text-success'>Login effettuato con successo!</span>";
-      location.href = "webApp.html";
+      location.href = "webApp.php";
     } else {
       alert("Email o password errate");
   }
